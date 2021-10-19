@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+body {
+    background: linear-gradient(110deg, blue, rgb(255, 63, 63));
+}
+
+section {
+    text-align: center;
+}
+
+p {
+    font-family: 'IM Fell English SC', serif;
+}
+
+h2 {
+    display: inline-block;
+    width: 150px;
+    border-radius: 25%;
+    border: 10px double rgb(255, 55, 55);
+    font-family: 'Festive', cursive;
+    color: white;
+}
+
+html {
+    font-size: 10px;
+}
+
+.h1 h1 {
+    font-size: 7rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(165, 165, 165);
+    color: rgb(255, 255, 255);
+    font-family: 'Festive', cursive;
+    text-decoration: underline;
+}
+
+.h1 p {
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    font-family: 'IM Fell English SC', serif;
+    text-decoration: underline;
+}
+
+
+/*###### Touch ########*/
+
+.touch h2 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.touch p {
+    background: url("../img/touch.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.touch span {
+    color: red;
+}
+
+.hand {
+    padding-top: 30px;
+    font-size: 5rem;
+}
+
+
+/*###### mkdir ########*/
+
+.mkdir h2 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.mkdir p {
+    background: url("../img/mkdir.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.mkdir span {
+    color: red;
+}
+
+
+/*###### cd ########*/
+
+.cd h2 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.cd p {
+    background: url("../img/cd.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.cd span {
+    color: red;
+}
+
+
+/*###### ls ########*/
+
+.ls h2 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.ls p {
+    background: url("../img/ls.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.ls span {
+    color: red;
+}
+
+
+/*###### ls -a ########*/
+
+.ls_-a h2 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.ls_-a p {
+    background: url("../img/ls\ -a.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.ls_-a span {
+    color: red;
+}
+
+
+/*###### pwd ########*/
+
+.pwd h2 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.pwd p {
+    background: url("../img/pwd.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.pwd span {
+    color: red;
+}
+
+
+/*###### mv ########*/
+
+.mv h2 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.mv p {
+    background: url("../img/mv.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.mv span {
+    color: red;
+}
+
+
+/*###### cp ########*/
+
+.cp h2 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.cp p {
+    background: url("../img/mv.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.cp span {
+    color: red;
+}
+
+
+/*###### rm ########*/
+
+.rm h2 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.rm p {
+    background: url("../img/rm.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.rm span {
+    color: red;
+}
+
+
+/*###### rmdir ########*/
+
+.rmdir h2 {
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.rmdir p {
+    background: url("../img/rmdir.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.rmdir span {
+    color: red;
+}
