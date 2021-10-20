@@ -29,25 +29,19 @@ html {
     font-size: 10px;
 }
 
-.h1_terminal {
-    text-align: center;
-    top: 10px;
-    position: sticky;
-    margin: 0 auto;
-    width: 1200px;
+.h1 h1 {
     font-size: 7rem;
     margin-bottom: 20px;
-    border-bottom: 10px double rgb(165, 165, 165);
+    border-bottom: 3px solid rgb(165, 165, 165);
     color: rgb(255, 255, 255);
     font-family: 'Festive', cursive;
     text-decoration: underline;
-    background: linear-gradient(blue, red);
 }
 
 .h1 p {
     background-color: rgb(53, 53, 53);
     width: 800px;
-    margin: 50px auto 0 auto;
+    margin: 0 auto;
     color: white;
     font-size: 4rem;
     border-radius: 10px;
@@ -313,20 +307,6 @@ html {
 
 /*###### Git Befehle ########*/
 
-.h1_git {
-    top: 20px;
-    position: sticky;
-    margin: 50px auto;
-    width: 1200px;
-    font-size: 7rem;
-    border-bottom: 10px double rgb(165, 165, 165);
-    color: rgb(255, 255, 255);
-    font-family: 'Festive', cursive;
-    text-decoration: underline;
-    background: linear-gradient(blue, red);
-    text-align: center;
-}
-
 
 /*###### git init ########*/
 
@@ -457,13 +437,12 @@ html {
 /*###### git_log__oneline ########*/
 
 .git_log__oneline h2 {
-    width: 300px;
     font-size: 4rem;
     margin: 50px 0;
 }
 
 .git_log__oneline p {
-    background: url("../img/git\ oneline.png");
+    background: url("../img/pwd.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: rgb(53, 53, 53);
@@ -480,16 +459,15 @@ html {
 }
 
 
-/*###### git_branche ########*/
+/*###### mv ########*/
 
-.git_branche h2 {
-    width: 350px;
+.mv h2 {
     font-size: 4rem;
     margin: 50px 0;
 }
 
-.git_branche p {
-    background: url("../img/git\ branche.png");
+.mv p {
+    background: url("../img/mv.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: rgb(53, 53, 53);
@@ -501,21 +479,20 @@ html {
     padding-bottom: 150px;
 }
 
-.git_branche span {
+.mv span {
     color: red;
 }
 
 
-/*###### git_branche_a ########*/
+/*###### cp ########*/
 
-.git_branche_a h2 {
-    width: 350px;
+.cp h2 {
     font-size: 4rem;
     margin: 50px 0;
 }
 
-.git_branche_a p {
-    background: url("../img/git\ branche\ a.png");
+.cp p {
+    background: url("../img/mv.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: rgb(53, 53, 53);
@@ -527,21 +504,20 @@ html {
     padding-bottom: 150px;
 }
 
-.git_branche_a span {
+.cp span {
     color: red;
 }
 
 
-/*###### git_branche__d ########*/
+/*###### rm ########*/
 
-.git_branche__d h2 {
-    width: 400px;
+.rm h2 {
     font-size: 4rem;
     margin: 50px 0;
 }
 
-.git_branche__d p {
-    background: url("../img/git\ branche\ d.png");
+.rm p {
+    background: url("../img/rm.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: rgb(53, 53, 53);
@@ -553,21 +529,20 @@ html {
     padding-bottom: 150px;
 }
 
-.git_branche__d span {
+.rm span {
     color: red;
 }
 
 
-/*###### git_checkout ########*/
+/*###### rmdir ########*/
 
-.git_checkout h2 {
-    width: 250px;
+.rmdir h2 {
     font-size: 4rem;
     margin: 50px 0;
 }
 
-.git_checkout p {
-    background: url("../img/git\ checkout.png");
+.rmdir p {
+    background: url("../img/rmdir.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: rgb(53, 53, 53);
@@ -579,82 +554,6 @@ html {
     padding-bottom: 150px;
 }
 
-.git_checkout {
-    color: red;
-}
-
-
-/*###### git_pull ########*/
-
-.git_pull h2 {
-    font-size: 4rem;
-    margin: 50px 0;
-}
-
-.git_pull p {
-    background: url("../img/git\ pull.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-color: rgb(53, 53, 53);
-    width: 800px;
-    margin: 0 auto;
-    color: white;
-    font-size: 4rem;
-    border-radius: 10px;
-    padding-bottom: 150px;
-}
-
-.git_pull {
-    color: red;
-}
-
-
-/*###### git_clone ########*/
-
-.git_clone h2 {
-    font-size: 4rem;
-    margin: 50px 0;
-}
-
-.git_clone p {
-    background: url("../img/git\ clone.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-color: rgb(53, 53, 53);
-    width: 800px;
-    margin: 0 auto;
-    color: white;
-    font-size: 4rem;
-    border-radius: 10px;
-    padding-bottom: 150px;
-}
-
-.git_clone {
-    color: red;
-}
-
-
-/*###### git_merge ########*/
-
-.git_merge h2 {
-    font-size: 4rem;
-    margin: 50px 0;
-}
-
-.git_merge p {
-    background: url("../img/git\ merge.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-color: rgb(53, 53, 53);
-    width: 800px;
-    margin: 0 auto;
-    color: white;
-    font-size: 4rem;
-    border-radius: 10px;
-    padding-bottom: 150px;
-    margin-bottom: 50px;
-}
-
-.git_merge {
+.rmdir span {
     color: red;
 }
